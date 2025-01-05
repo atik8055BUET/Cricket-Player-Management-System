@@ -6,8 +6,6 @@ Designed using **JavaFX** and **Scene Builder**, this application ensures an eng
 
 With real-time updates, detailed data handling, and an array of advanced features, managing cricket players has never been easier. 🚀  
 
-![alt text](src/photos/Readme%20Images/projectGIF.gif)
-
 
 ## ✨ **Key Features**  
 
@@ -32,7 +30,7 @@ Efficiently manage player details:
 - **Search Players**: Locate players quickly by specifying criteria such as name, position, country, club, or salary range. Search results update dynamically for instant feedback.  
 
 
-
+![alt text](src/photos/Readme%20Images/projectGIF.gif)
 
 ### ⚙️ **Buy and Sell Players**  
 Handle transfers effortlessly:  
