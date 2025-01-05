@@ -1,0 +1,11 @@
+Chennai Super Kings,999999999,123
+Delhi Capitals,999999999,123
+Gujarat Titans,999999999,123
+Kolkata Knight Riders,999999999,123
+Lucknow Super Giants,999999999,123
+Mumbai Indians,999999999,123
+Punjab Kings,999999999,123
+Rajasthan Royals,999999999,123
+Royal Challengers Bangalore,999999999,123
+Sunrisers Hyderabad,999999999,123
+admin,0,123

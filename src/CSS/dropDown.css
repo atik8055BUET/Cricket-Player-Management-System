@@ -1,0 +1,17 @@
+#logout, #searchFilter, #otherClub
+{
+    font-size: 15px;
+    -fx-font-size: 15px;
+    font-family: "Arial Rounded MT Bold";
+    -fx-font-family: "Arial Rounded MT Bold";
+    -fx-alignment: center;
+}
+
+#usernameField
+{
+    font-size: 20px;
+    -fx-font-size: 20px;
+    font-family: "Arial Rounded MT Bold";
+    -fx-font-family: "Arial Rounded MT Bold";
+    -fx-alignment: center;
+}

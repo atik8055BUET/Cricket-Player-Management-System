@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.viewPlayerController">
+   <children>
+      <VBox alignment="CENTER" layoutX="336.0" layoutY="215.0" prefHeight="240.0" prefWidth="664.0" />
+      <Rectangle fx:id="clubColour" arcHeight="5.0" arcWidth="5.0" fill="#19398a" height="600.0" layoutX="-1.0" stroke="BLACK" strokeType="INSIDE" width="339.0" />
+      <ImageView fx:id="clubIcon" fitHeight="229.0" fitWidth="355.0" layoutX="2.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 100%; -fx-alignment: center;">
+         <image>
+            <Image url="@../photos/utils/IplLogo.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="clubName" layoutX="2.0" layoutY="372.0" prefHeight="41.0" prefWidth="335.0" text="Club Name" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="5.0" left="10.0" right="5.0" top="5.0" />
+         </padding>
+      </Label>
+      <Label fx:id="clubBalance" layoutX="3.0" layoutY="402.0" prefHeight="41.0" prefWidth="335.0" text="Club Balance:" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="17.0" />
+         </font>
+         <padding>
+            <Insets bottom="5.0" left="10.0" right="5.0" top="5.0" />
+         </padding>
+      </Label>
+      <TextField fx:id="searchFeild" layoutX="341.0" layoutY="6.0" maxHeight="30.0" prefHeight="30.0" prefWidth="448.0" promptText="Player Name/Country etc.">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </TextField>
+      <Button fx:id="Search" layoutX="897.0" layoutY="5.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleSearch" prefHeight="30.0" prefWidth="100.0" text="Search">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Button>
+      <ComboBox fx:id="searchFilter" layoutX="793.0" layoutY="5.0" maxHeight="30.0" maxWidth="1.7976931348623157E308" prefHeight="30.0" prefWidth="100.0" promptText="Filter" stylesheets="@../CSS/dropDown.css" />
+      <ScrollPane layoutX="341.0" layoutY="41.0" prefHeight="559.0" prefWidth="659.0">
+         <content>
+            <VBox fx:id="playerContainer" prefHeight="563.0" prefWidth="655.0" />
+         </content>
+      </ScrollPane>
+      <ComboBox fx:id="logout" layoutX="3.0" layoutY="5.0" maxHeight="30.0" maxWidth="331.0" onAction="#handleBackButtonAction" prefHeight="30.0" prefWidth="331.0" promptText="Account" stylesheets="@../CSS/dropDown.css" />
+      <VBox alignment="CENTER" layoutX="3.0" layoutY="453.0" prefHeight="134.0" prefWidth="330.0" spacing="7.0">
+         <children>
+            <Button fx:id="searchPlayerButton" alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleSearchPlayerButton" prefHeight="30.0" prefWidth="330.0" text="Dashboard" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="addPlayerButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleAddPlayerButton" prefHeight="30.0" prefWidth="330.0" text="Add Players">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="viewPlayerButton" layoutX="10.0" layoutY="88.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleViewPlayerButton" prefHeight="30.0" prefWidth="330.0" text="Store">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <ComboBox fx:id="otherClub" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="30.0" onAction="#handleotherClub" prefHeight="30.0" prefWidth="330.0" promptText="Other Clubs" stylesheets="@../CSS/dropDown.css" />
+         </children>
+         <opaqueInsets>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </opaqueInsets>
+      </VBox>
+   </children>
+</AnchorPane>

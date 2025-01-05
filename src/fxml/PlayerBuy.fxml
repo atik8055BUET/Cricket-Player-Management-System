@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="101.0" prefWidth="643.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.PlayerBuyController">
+   <children>
+      <Text fx:id="playerPostion" layoutX="102.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Position :" wrappingWidth="177.25392150878895">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="playerName" layoutX="103.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player's Name :" wrappingWidth="207.25390625">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Text>
+      <Button fx:id="buyPlayer" layoutX="584.0" layoutY="39.0" mnemonicParsing="false" onAction="#handleBuyPlayer" prefHeight="23.0" prefWidth="56.0" style="-fx-background-color: #19398a;" text="Buy" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="ClubPic" fitHeight="62.0" fitWidth="68.0" layoutX="497.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../photos/club_mini/Club.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="profilePhoto" fitHeight="81.0" fitWidth="95.0" layoutX="4.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../photos/profile/profile.png" />
+         </image>
+      </ImageView>
+      <Separator layoutX="308.0" layoutY="-1.0" orientation="VERTICAL" prefHeight="103.0" prefWidth="6.0" />
+      <Separator layoutX="476.0" orientation="VERTICAL" prefHeight="103.0" prefWidth="6.0" />
+      <Separator layoutX="578.0" layoutY="-1.0" orientation="VERTICAL" prefHeight="103.0" prefWidth="6.0" />
+      <ImageView fx:id="CountryPic" fitHeight="26.0" fitWidth="47.0" layoutX="255.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../photos/country/Country.jpg" />
+         </image>
+      </ImageView>
+      <Text fx:id="CountryName" layoutX="102.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CountryName" wrappingWidth="177.25392150878895">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="ClubName" layoutX="481.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Club:" wrappingWidth="93.99999999999994">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="314.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Weekly Sallery:" wrappingWidth="93.88088226318337">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Text>
+      <Text fx:id="Age" layoutX="315.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age:" wrappingWidth="67.75392150878895">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Text>
+      <Text fx:id="height" layoutX="395.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Height:" wrappingWidth="80.77561950683594">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Text>
+      <Text fx:id="PlayerSalary" layoutX="403.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sallery:" wrappingWidth="93.88088226318337">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Text>
+      <Text fill="RED" layoutX="314.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price:" wrappingWidth="93.88088226318337">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Text>
+      <Text fx:id="price" fill="RED" layoutX="353.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="price" wrappingWidth="93.88088226318337">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
