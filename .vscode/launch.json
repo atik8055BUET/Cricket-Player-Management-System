@@ -3,7 +3,23 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Main",
+            "name": "Main - adb1a422",
+            "request": "launch",
+            "mainClass": "Source.Main",
+            "projectName": "Cricket-Player-Management-System_adb1a422",
+            "vmArgs": "--module-path \"C:/Program Files/Java/javafx-sdk-23.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Server - adb1a422",
+            "request": "launch",
+            "mainClass": "Source.Server",
+            "projectName": "Cricket-Player-Management-System_adb1a422",
+            "vmArgs": "--module-path \"C:/Program Files/Java/javafx-sdk-23.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Main - 8038d63b",
             "request": "launch",
             "mainClass": "Source.Main",
             "projectName": "Cricket Player Management System_8038d63b",
@@ -11,7 +27,7 @@
         },
         {
             "type": "java",
-            "name": "Server",
+            "name": "Server - 8038d63b",
             "request": "launch",
             "mainClass": "Source.Server",
             "projectName": "Cricket Player Management System_8038d63b",
@@ -19,15 +35,7 @@
         },
         {
             "type": "java",
-            "name": "Server",
-            "request": "launch",
-            "mainClass": "Source.Server",
-            "projectName": "Cricket Player Management System_4319121c",
-            "vmArgs": "--module-path \"C:/Program Files/Java/javafx-sdk-23.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
-        },
-        {
-            "type": "java",
-            "name": "Main",
+            "name": "Main - 4319121c",
             "request": "launch",
             "mainClass": "Source.Main",
             "projectName": "Cricket Player Management System_4319121c",
@@ -35,7 +43,15 @@
         },
         {
             "type": "java",
-            "name": "Main",
+            "name": "Server - 4319121c",
+            "request": "launch",
+            "mainClass": "Source.Server",
+            "projectName": "Cricket Player Management System_4319121c",
+            "vmArgs": "--module-path \"C:/Program Files/Java/javafx-sdk-23.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Main - 7a38865c",
             "request": "launch",
             "mainClass": "Source.Main",
             "projectName": "Cricket Player Management System_7a38865c",
@@ -43,7 +59,7 @@
         },
         {
             "type": "java",
-            "name": "Server",
+            "name": "Server - 7a38865c",
             "request": "launch",
             "mainClass": "Source.Server",
             "projectName": "Cricket Player Management System_7a38865c",
