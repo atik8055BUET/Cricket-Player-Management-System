@@ -66,7 +66,7 @@ Before running the application, ensure you have the following installed:
 ### **Installation Steps**  
 1. **Clone the Repository**:  
    ```bash  
-   git clone https://github.com/atik8055BUET/cricket-player-management.git  
+   git clone https://github.com/atik8055BUET/Cricket-Player-Management-System.git  
    ```  
 2. **Open in IDE**: Use your favorite Java IDE (e.g., IntelliJ IDEA, Eclipse, or VS Code).  
 3. **Configure JavaFX**: Add the JavaFX library to your project dependencies and configure VM options:  
