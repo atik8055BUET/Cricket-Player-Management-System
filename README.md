@@ -118,12 +118,7 @@ We welcome all contributions to improve the Cricket Player Management System! He
 1. Fork the repository.  
 2. Create a feature branch for your changes.  
 3. Push your changes to your forked repository.  
-4. Submit a pull request with a detailed explanation of your updates.  
-
-
-## 📜 **License**  
-
-This project is licensed under the **MIT License**. You are free to use, modify, and distribute this project as per the terms of the license. Refer to the [LICENSE](LICENSE) file for more information.  
+4. Submit a pull request with a detailed explanation of your updates.   
 
 
 ## 🌟 **Acknowledgements**  
